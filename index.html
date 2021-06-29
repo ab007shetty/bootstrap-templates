@@ -14,6 +14,25 @@
 
  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css "/>
 
+<style>
+
+.vertical-menu {
+  height: 690px;
+  overflow-y: auto;
+}
+
+.vertical-menu a {
+  display: block;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ab2434;
+}
+
+
+</style>
+
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light sticky-top top-0 shadow py-0" style="background-color: #e3f2fd;">
@@ -29,9 +48,9 @@
     <div class="row">
 
       <!--Grid column-->
-      <div class="col-md-2 nav btn-group-vertical"  role="group">
+      <div class="col-md-2 nav btn-group-vertica vertical-menu pl-2 pt-2"  role="group">
 
-			  <a class="btn btn-info btn-block " data-toggle="tab" href="#panel1" role="tab">Agency 1</a>
+			  <a class="btn btn-info btn-block active" data-toggle="tab" href="#panel1" role="tab">Agency 1</a>
 			  <a class="btn btn-info btn-block" data-toggle="tab" href="#panel2" role="tab">Agency 2</a>
 			  <a class="btn btn-info btn-block" data-toggle="tab" href="#panel3" role="tab">Boot Business</a>
 			  <a class="btn btn-info btn-block" data-toggle="tab" href="#panel4" role="tab">Business 1</a>
